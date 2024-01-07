@@ -1,11 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600");
 
-/*
-	Snapshot by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 /* Reset */
 
@@ -78,7 +73,7 @@
 	}
 
 	body {
-		background: #fff;
+		background: #ffffff;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -95,7 +90,7 @@
 /* Type */
 
 	body {
-		background-color: #fff;
+		background-color: #ffffff;
 		color: #22313F;
 	}
 
@@ -319,8 +314,8 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background: #000000;
-		color: #FFF;
+		background: #757474;
+		color: #ffffff;
 		border-radius: 4px;
 		border: 0;
 		cursor: pointer;
@@ -358,7 +353,7 @@
 		button:hover,
 		.button:hover {
 			color: #FFF;
-			background: #3d0f0f;
+			background: #414141;
 		}
 
 		input[type="submit"].alt,
@@ -467,7 +462,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #ececec;
+		background: #ffffff;
 	}
 
 		#contact form {
@@ -486,7 +481,7 @@
 		}
 
 			#contact .column.social {
-				background: #e6e6e6;
+				background: #ffffff;
 			}
 
 			@media screen and (max-width: 980px) {
@@ -1397,7 +1392,7 @@
 /* Menu */
 
 	#nav {
-		background: #0d1217;
+		background: #531313;
 		z-index: 10002;
 		position: relative;
 		width: 4em;
@@ -1426,11 +1421,11 @@
 				}
 
 					#nav ul li a:hover {
-						color: white;
+						color: rgb(255, 255, 255);
 					}
 
-					#nav ul li a.active {
-						color: white;
+					#nav ul li a:active {
+						color: rgba(255, 255, 255, 0.5);
 					}
 
 				@media screen and (max-width: 736px) {
@@ -1562,7 +1557,7 @@
 /* Main */
 
 	#main {
-		background: #f1f1f1;
+		background: #b1b1b1;
 		width: 100%;
 	}
 
@@ -1602,8 +1597,8 @@
 
 		.copyright {
 			padding: 2em 0 2em 0;
-			background: #f2f2f2;
-			color: #bfbfbf;
+			background: #b1b1b1;
+			color: #ffffff;
 			font-size: 0.9em;
 			text-align: center;
 		}
