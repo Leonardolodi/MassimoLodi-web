@@ -314,7 +314,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background: #757474;
+		background: #630a0a;
 		color: #ffffff;
 		border-radius: 4px;
 		border: 0;
@@ -1392,7 +1392,7 @@
 /* Menu */
 
 	#nav {
-		background: #531313;
+		background: #6e6e6e;
 		z-index: 10002;
 		position: relative;
 		width: 4em;
