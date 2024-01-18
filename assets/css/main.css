@@ -874,7 +874,7 @@
 
 				}
 
-				@media screen and (max-width: 480px) {
+				@media screen and (max-width: 400px) {
 
 					.gallery .content .media {
 						width: 100%;
@@ -1392,7 +1392,7 @@
 /* Menu */
 
 	#nav {
-		background: #646464;
+		background: #302e2e;
 		z-index: 10002;
 		position: relative;
 		width: 4em;
