@@ -318,7 +318,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background: #333333;
+		background: #000000;
 		color: #ffffff;
 		border-radius: 4px;
 		border: 0;
@@ -357,7 +357,7 @@
 		button:hover,
 		.button:hover {
 			color: #FFF;
-			background: #630a0a;
+			background: #333333;
 		}
 
 		input[type="submit"].alt,
@@ -1399,7 +1399,7 @@
 	#nav {
 		z-index: 10002;
 		position: relative;
-		background: #333333;
+		background: #000000;
 		width: 4em;
 	}
 
@@ -1514,7 +1514,7 @@ width: 4em;*/
 		height: 75vh;
 		position: relative;
 		background: #000;
-		background-image: url(../../images/banner.jpg);
+		background-image: url(../../images/banner3.jpg);
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
