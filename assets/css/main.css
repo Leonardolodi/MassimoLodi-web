@@ -2043,7 +2043,7 @@ body.is-loading #banner3 > .inner {
 
 #marquee .pic-container {
     display: flex;
-    animation: marquee 30s infinite;
+    animation: marquee 22s infinite;
 }
 
 #marquee .pic-container .pic {
