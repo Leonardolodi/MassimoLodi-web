@@ -2017,5 +2017,93 @@ body.is-loading #banner3 > .inner {
 										  .text {font-size: 11px}
 										}
 
+
+
+/* marquee effect */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    color: inherit;
+    list-style-type: none;
+}
+
+
+
+#marquee {
+    padding: 50px 0px;
+    width: 100%;
+}
+
+#marquee .container2 {
+    overflow: hidden;
+    width: 100%;
+}
+
+#marquee .pic-container {
+    display: flex;
+    animation: marquee 30s infinite;
+}
+
+#marquee .pic-container .pic {
+    flex-basis: 20%;
+    flex-shrink: 0;
+}
+
+#marquee img {
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+@media (max-width: 1024px) {
+    #marquee .pic-container .pic {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 3024px) {
+    #marquee .pic-container .pic {
+        flex-basis: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    #marquee .pic-container .pic {
+        flex-basis: 100%;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width: 1024px) {
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-125%);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-186.65%);
+        }
+    }
+}
 	
 	
