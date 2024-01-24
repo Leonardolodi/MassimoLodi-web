@@ -1733,7 +1733,7 @@ body.is-loading #banner2 > .inner {
 		text-decoration: none;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 380px) {
 
 		#banner2 h1 {
 			font-size: 3.5em;
@@ -1837,7 +1837,7 @@ body.is-loading #banner2 > .inner {
 	/* banner gallery 5 ambientazioni*/
 
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 380px) {
 
 		#banner5 h1 {
 			font-size: 3.5em;
@@ -2032,7 +2032,7 @@ body.is-loading #banner3 > .inner {
 		text-decoration: none;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 380px) {
 
 		#banner3 h1 {
 			font-size: 3.5em;
