@@ -2032,7 +2032,7 @@ body.is-loading #banner3 > .inner {
 		text-decoration: none;
 	}
 
-	@media screen and (max-width: 380px) {
+	@media screen and (max-width: 1280px) {
 
 		#banner3 h1 {
 			font-size: 3.5em;
