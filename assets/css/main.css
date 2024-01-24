@@ -1626,7 +1626,7 @@ body {
 			text-decoration: none;
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 380px) {
 
 			#banner h1 {
 				font-size: 3.5em;
@@ -1761,7 +1761,7 @@ body.is-loading #banner2 > .inner {
 		text-decoration: none;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 380px) {
 
 		#banner2 h1 {
 			font-size: 3.5em;
@@ -1897,7 +1897,7 @@ body.is-loading #banner3 > .inner {
 		text-decoration: none;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 380px) {
 
 		#banner3 h1 {
 			font-size: 3.5em;
@@ -2030,7 +2030,7 @@ body.is-loading #banner3 > .inner {
 			text-decoration: none;
 		}
 	
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 380px) {
 	
 			#banner4 h1 {
 				font-size: 3.5em;
