@@ -193,6 +193,8 @@
 	h2 {
 		font-size: 1.75em;
 		text-align: center;
+		background-color: white;
+		padding-bottom: 2em;
 	}
 
 		@media screen and (max-width: 480px) {
@@ -200,7 +202,8 @@
 			h2 {
 				font-size: 1.6em;
 				text-align: center;
-				
+				background-color: white;
+				padding-bottom: 2em;
 			}
 
 		}
@@ -2211,7 +2214,7 @@ body.is-loading #banner3 > .inner {
 /* Main */
 
 	#main {
-		background: #b1b1b1;
+		background: #b6b6b6;
 		width: 100%;
 	}
 
