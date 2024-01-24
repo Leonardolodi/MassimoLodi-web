@@ -1692,8 +1692,8 @@ body {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		min-height: 75vh;
-		height: 75vh;
+		min-height: 170vh;
+		height: 170vh;
 		position: relative;
 		background: #000;
 		background-image: url(../../images/banner6.jpg);
@@ -1783,8 +1783,8 @@ body {
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
 				justify-content: center;
-				min-height: 100vh;
-				height: 100vh;
+				min-height: 160vh;
+				height: 160vh;
 				position: relative;
 				background: #000;
 				background-image: url(../../images/banner3.jpg);
