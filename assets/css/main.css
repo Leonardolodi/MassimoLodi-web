@@ -2216,12 +2216,12 @@ body.is-loading #banner3 > .inner {
 /* Main */
 
 	#main {
-		background: #d3d3d3;
+		background: #8a8a8a;
 		width: 100%;
 	}
 
 		#main #header {
-			background: #e6e6e6;
+			background: #666666;
 			padding: 1.15em 3.5em;
 			text-align: right;
 		}
