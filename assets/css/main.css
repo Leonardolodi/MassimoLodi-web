@@ -1532,9 +1532,7 @@ body {
 }
 
 
-/* Banner 
-background: #333333;
-width: 4em;*/
+/* Banner */
 
 	body.is-loading #banner > .inner {
 		opacity: 0;
@@ -1632,7 +1630,7 @@ width: 4em;*/
 
 			#banner h1 {
 				font-size: 3.5em;
-				background-attachment: scroll;
+		
 			}
 			
 			#banner {
@@ -1663,6 +1661,7 @@ width: 4em;*/
 				background-position: center;
 				text-align: center;
 				color: #FFF;
+				background-attachment: scroll;
 			}
 		}
 
@@ -1766,7 +1765,7 @@ body.is-loading #banner2 > .inner {
 
 		#banner2 h1 {
 			font-size: 3.5em;
-			background-attachment: scroll;
+			
 		}
 		#banner2 {
 			display: -ms-flexbox;
@@ -1796,23 +1795,13 @@ body.is-loading #banner2 > .inner {
 			background-position: center;
 			text-align: center;
 			color: #FFF;
+			background-attachment: scroll;
 		}
 		
 		
 	}
 
 	
-	/* banner gallery 5 ambientazioni*/
-
-
-	@media screen and (max-width: 480px) {
-
-		#banner5 h1 {
-			font-size: 3.5em;
-			background-attachment: scroll;
-		}
-
-	}
 
 	/* banner generic */
 
@@ -1912,6 +1901,37 @@ body.is-loading #banner3 > .inner {
 
 		#banner3 h1 {
 			font-size: 3.5em;
+			
+		}
+
+		#banner3 {
+			display: -ms-flexbox;
+			-ms-flex-pack: center;
+			-ms-flex-align: center;
+			padding: 8em 0 6em 0;
+			-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+			align-items: center;
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			min-height: 100vh;
+			height: 100vh;
+			position: relative;
+			background: #000;
+			background-image: url(../../images/banner4.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-position: center;
+			text-align: center;
+			color: #FFF;
 			background-attachment: scroll;
 		}
 	}
@@ -2014,9 +2034,9 @@ body.is-loading #banner3 > .inner {
 	
 			#banner4 h1 {
 				font-size: 3.5em;
-				background-attachment: scroll;
+				
 			}
-			#banner3 {
+			#banner4 {
 				display: -ms-flexbox;
 				-ms-flex-pack: center;
 				-ms-flex-align: center;
@@ -2037,13 +2057,14 @@ body.is-loading #banner3 > .inner {
 				height: 100vh;
 				position: relative;
 				background: #000;
-				background-image: url(../../images/banner4.jpg);
+				background-image: url(../../images/banner2.png);
 				background-size: cover;
 				background-attachment: fixed;
 				background-repeat: no-repeat;
 				background-position: center;
 				text-align: center;
 				color: #FFF;
+				background-attachment: scroll;
 			}
 			
 	
