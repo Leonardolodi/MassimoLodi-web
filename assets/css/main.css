@@ -98,7 +98,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+		font-family: 'Courier New', Courier, monospace;
 		font-size: 13pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1258,7 +1258,7 @@
 }
 
 body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* ///////////..utility classes../////////// */
