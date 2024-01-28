@@ -151,7 +151,7 @@
 
 		a:hover {
 			text-decoration: none;
-			color: #411015;
+			color: #c00000;
 		}
 
 	strong, b {
@@ -359,7 +359,7 @@
 			button.active:hover,
 			.button.active:hover {
 				color: #FFF;
-				background: #22313F;
+				background: #3f2222;
 			}
 
 		input[type="submit"]:hover,
@@ -368,7 +368,7 @@
 		button:hover,
 		.button:hover {
 			color: #FFF;
-			background: #333333;
+			background: #d80000;
 		}
 
 		input[type="submit"].alt,
@@ -1481,7 +1481,7 @@ body {
 }
 
 .menu-items a:hover {
-  color: #500f0f;
+  color: #c00000;
   transition: color 0.3s ease-in-out;
 }
 
