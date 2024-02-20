@@ -21,6 +21,8 @@
 					$body.removeClass('is-loading');
 				}, 100);
 			});
+		
+		
 
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
