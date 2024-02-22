@@ -310,16 +310,16 @@
 	h2 {
 		font-size: 1.75em;
 		text-align: center;
-	
 		padding-bottom: 2em;
+		background-color: #FFF;
 	}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 680px) {
 
 			h2 {
 				font-size: 1.6em;
 				text-align: center;
-			
+				background-color: #FFF;
 				padding-bottom: 2em;
 			}
 
@@ -1334,6 +1334,7 @@ input[type="radio"] + label:before {
 
 	section.special, article.special {
 		text-align: center;
+		
 	}
 
 	section .inner, article .inner {
