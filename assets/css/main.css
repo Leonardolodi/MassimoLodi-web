@@ -1834,7 +1834,7 @@ body {
 
 @media (max-width: 500px) {
   html {
-    font-size: 65%;
+    font-size: 80%;
   }
 
   .navbar .menu-items li{
@@ -2297,10 +2297,14 @@ body.is-loading #banner3 > .inner {
 
 		.copyright {
 			padding: 2em 0 2em 0;
-			background: #c2c2c2;
+			background: #ffb443;
 			color: #ffffff;
 			font-size: 0.9em;
 			text-align: center;
+			font-family: 'Courier New', Courier, monospace;
+			font-weight: 550;
+			font-size: larger;
+			border: solid 1px #000;
 		}
 .copyright a{
 	text-decoration: none;
