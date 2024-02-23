@@ -2960,4 +2960,8 @@ wrapper.style2 {
 		text-align: center;
 	}
 
-	
+	.details{
+		text-align: center;
+		font-weight: 800;
+		font-size: larger;
+	}
