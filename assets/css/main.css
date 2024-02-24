@@ -367,7 +367,7 @@
 		text-align: center;
 		padding-bottom: 0.5em;
 		padding-top: 0.5em;
-		background-color: #cacff270;
+		background-color: #f3c443;
 		border: 3px solid #000000;
 		font-family: 'Times New Roman', Times, serif;
 	}
@@ -2495,7 +2495,7 @@ body.is-loading #banner5 > .inner {
 /* Main */
 
 	#main {
-		background: #e0e0e0;
+		background: #e0e0e081;
 		width: 100%;
 	}
 
