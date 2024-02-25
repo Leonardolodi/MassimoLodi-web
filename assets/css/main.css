@@ -322,7 +322,7 @@
 
 		a:hover {
 			text-decoration: none;
-			color: #ca4a00;
+			color: #8a8a8a;
 		}
 
 	strong, b {
@@ -367,9 +367,9 @@
 		text-align: center;
 		padding-bottom: 0.5em;
 		padding-top: 0.5em;
-		background-color: #f3c443;
-		border: 3px solid #000000;
-		font-family: 'Times New Roman', Times, serif;
+		background-color: #ffffff;
+		border: 2px solid #000000;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	}
 
 		@media screen and (max-width: 680px) {
@@ -377,10 +377,10 @@
 			h2 {
 				font-size: 2em;
 				text-align: center;
-				background-color: #f3c443;
+				background-color: #ffffff;
 				padding-bottom: 0.5em;
 				padding-top: 0.5em;
-				border: 3px solid #000000;
+				border: 2px solid #000000;
 			}
 
 		}
@@ -504,7 +504,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background: #ffb443;
+		background: #ffffff;
 		color: #000000;
 		border-radius: 4px;
 		border: 0;
@@ -518,7 +518,7 @@
 		text-decoration: none;
 		white-space: nowrap;
 		opacity: 85%;
-		border: solid 1px black;
+		border: solid 2px black;
 	}
 
 		input[type="submit"].active,
@@ -536,7 +536,7 @@
 			button.active:hover,
 			.button.active:hover {
 				color: #FFF;
-				background: #ca4a00;
+				background: black;
 			}
 
 		input[type="submit"]:hover,
@@ -545,7 +545,7 @@
 		button:hover,
 		.button:hover {
 			color: #FFF;
-			background: #ca4a00;
+			background: black;
 		}
 
 		input[type="submit"].alt,
@@ -831,7 +831,7 @@ textarea {
 	select:focus,
 	textarea:active,
 	textarea:focus {
-		border: solid 2px #ffb443;
+		border: solid 2px #000000;
 	}
 
 .select-wrapper {
@@ -1706,13 +1706,13 @@ body {
 
 .menu-items a {
   text-decoration: none;
-  color: #444;
-  font-weight: 500;
+  color: #000000;
+  font-weight: 600;
   transition: color 0.3s ease-in-out;
 }
 
 .menu-items a:hover {
-  color: #ca4a00;
+  color: #979797;
   transition: color 0.3s ease-in-out;
 }
 
@@ -1934,7 +1934,7 @@ body.is-loading #banner > .inner {
 	height: 75vh;
 	position: relative;
 	background: #000;
-	background-image: url(../../images/banner4.jpg);
+	background-image: url(../../images/banner1.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -2052,7 +2052,7 @@ body.is-loading #banner2 > .inner {
 	height: 75vh;
 	position: relative;
 	background: #000;
-	background-image: url(../../images/banner1.jpg);
+	background-image: url(../../images/banner5.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -2497,6 +2497,7 @@ body.is-loading #banner5 > .inner {
 	#main {
 		background: #e0e0e081;
 		width: 100%;
+		
 	}
 
 		#main #header {
@@ -2535,7 +2536,7 @@ body.is-loading #banner5 > .inner {
 
 		.copyright {
 			padding: 1em 0 1em 0;
-			background: #ffb443;
+			background: #ffffff;
 			color: #ffffff;
 			font-size: 0.9em;
 			text-align: center;
