@@ -999,7 +999,8 @@ input[type="radio"] + label:before {
 		@media screen and (max-width: 980px) {
 
 			.gallery {
-				padding: 2em;
+				padding: 10px;
+				padding-bottom: 3em;
 				min-height: 20em;
 			}
 
@@ -1012,7 +1013,8 @@ input[type="radio"] + label:before {
 		@media screen and (max-width: 480px) {
 
 			.gallery {
-				padding: 2em;
+				padding: 10px;
+				padding-bottom: 2.5em;
 			}
 
 		}
@@ -2052,7 +2054,7 @@ body.is-loading #banner2 > .inner {
 	height: 75vh;
 	position: relative;
 	background: #000;
-	background-image: url(../../images/banner5.jpg);
+	background-image: url(../../images/banner10.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -2170,7 +2172,7 @@ body.is-loading #banner3 > .inner {
 	height: 75vh;
 	position: relative;
 	background: #000;
-	background-image: url(../../images/banner7.JPG);
+	background-image: url(../../images/banner5.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
