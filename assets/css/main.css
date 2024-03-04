@@ -1679,11 +1679,11 @@ body {
   box-shadow: 0px 5px 10px 0px #1b1b1b;
   position: fixed;
   width: 100%;
-  background: #fff;
+  background-color: white;
   color: #000;
   opacity: 0.85;
   height: 50px;
-  z-index: 12;
+  z-index: 12; 
 }
 
 .navbar-container {
