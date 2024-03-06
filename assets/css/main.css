@@ -168,6 +168,72 @@
 	  }
   }
 
+/* gallery row */
+.rowgalleryindex {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .columngalleryindex {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 2px;
+  }
+  
+  .columngalleryindex img {
+	margin-top: 2px;
+	vertical-align: middle;
+	width: 100%;
+  }
+
+  .columngalleryindex {
+	-moz-animation: gallery 0.75s ease-out 0.4s forwards;
+	-webkit-animation: gallery 0.75s ease-out 0.4s forwards;
+	-ms-animation: gallery 0.75s ease-out 0.4s forwards;
+	animation: gallery 0.75s ease-out 0.4s forwards;
+	margin-bottom: 0;
+	overflow: hidden;
+	opacity: 0;
+	position: relative;
+	width: 25%;
+	
+}
+
+	.columngalleryindex {
+		display: block;
+	}
+
+	.columngalleryindex img {
+		-moz-transition: -moz-transform 0.2s ease-in-out;
+		-webkit-transition: -webkit-transform 0.2s ease-in-out;
+		-ms-transition: -ms-transform 0.2s ease-in-out;
+		transition: transform 0.2s ease-in-out;
+		max-width: 100%;
+		height: auto;
+		vertical-align: middle;
+		
+	}
+
+	.columngalleryindex img:hover {
+		-moz-transform: scale(1.075);
+		-webkit-transform: scale(1.075);
+		-ms-transform: scale(1.075);
+		transform: scale(1.075);
+	}
+
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+	.columngalleryindex {
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
+  
+ 
+
   /* Wide images from details */
 
 .responsive2 {
